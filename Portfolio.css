@@ -169,9 +169,9 @@ button{
     border-radius: 50px;
 }
 .about_wrapper ul li .nav-link{
-    border-radius: 50px;
+    border-radius: 40px;
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 400;
     transition: all 0.45s linear;
     display: inline-block;
     color: gray;
@@ -285,4 +285,16 @@ footer span a{
 }
 footer span a:hover{
     text-decoration: underline;
+}
+#carouselExampleCaptions {
+    min-width: 200px;
+    max-width: 600px;
+    border: 1px solid black;
+    margin: 90px auto;
+    
+    
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    filter: invert(1);
 }

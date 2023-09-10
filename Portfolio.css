@@ -218,7 +218,7 @@ button{
 }
 /* Section */
 .social-icons{
-    position: absolute;
+    margin-top: 80px;
     bottom: 50px;
     width: 170px;
     display: flex;
